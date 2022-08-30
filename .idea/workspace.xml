@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e1cd0de-673c-465c-8f74-46df4b319804" name="Default Changelist" comment="" />
+    <list default="true" id="2e1cd0de-673c-465c-8f74-46df4b319804" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FMNIST/Attack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/Attack_BA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/Attack_BrBeAttack_Inf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/Attack_BrBeAttack_L2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/Attack_CW_Inf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/Attack_CW_L2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/Attack_DeepFool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/Attack_EAD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/Attack_FGSM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_hopskipjumpattack_inf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_hopskipjumpattack_l2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_ifgsm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_jsma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_newtonfool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_pgd_inf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_pgd_l2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_pixelattack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_shadowattack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_spatialtransformationattack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_squareattack_inf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_squareattack_l2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_wassersteinattack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/attack_zoo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FMNIST/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMNIST/fmnist_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/FMNIST/fmnist_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMNIST/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/FMNIST/main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +38,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FMNIST/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FMNIST/attack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22077">
+              <caret line="1053" lean-forward="true" selection-start-line="1053" selection-end-line="1053" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FMNIST/fmnist_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+            <state relative-caret-position="416">
+              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -22,11 +74,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FMNIST/main.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FMNIST/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FMNIST/attack_ba.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/transformer/Lib/genericpath.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FMNIST/attack_zoo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1016">
+              <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FMNIST/attack_squareattack_inf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1016">
+              <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,12 +137,50 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>benign</find>
+      <find>save_path</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>clean</replace>
+      <replace>self.save_path</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/FMNIST/DeepFool.py" />
+        <option value="$PROJECT_DIR$/FMNIST/Attack_BA.py" />
+        <option value="$PROJECT_DIR$/FMNIST/Attack_BrBeAttack_Inf.py" />
+        <option value="$PROJECT_DIR$/FMNIST/Attack_BrBeAttack_L2.py" />
+        <option value="$PROJECT_DIR$/FMNIST/Attack_CW_Inf.py" />
+        <option value="$PROJECT_DIR$/FMNIST/Attack_CW_L2.py" />
+        <option value="$PROJECT_DIR$/FMNIST/Attack_DeepFool.py" />
+        <option value="$PROJECT_DIR$/FMNIST/Attack_EAD.py" />
+        <option value="$PROJECT_DIR$/FMNIST/Attack.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_fgsm.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_hopskipjumpattack_inf.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_hopskipjumpattack_l2.py" />
+        <option value="$PROJECT_DIR$/FMNIST/fmnist_model.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_ifgsm.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_jsma.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_newtonfool.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_pgd_inf.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_pgd_l2.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_pixelattack.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_shadowattack.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_spatialtransformationattack.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_squareattack_inf.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_squareattack_l2.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_wassersteinattack.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack_zoo.py" />
+        <option value="$PROJECT_DIR$/FMNIST/text.py" />
+        <option value="$PROJECT_DIR$/FMNIST/test.py" />
+        <option value="$PROJECT_DIR$/FMNIST/attack.py" />
         <option value="$PROJECT_DIR$/FMNIST/main.py" />
       </list>
     </option>
@@ -53,16 +188,15 @@
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/.idea/CriticalTransformationRobustness.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/dictionaries/zz.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2660" />
-    <option name="y" value="39" />
-    <option name="width" value="1440" />
-    <option name="height" value="899" />
+    <option name="x" value="775" />
+    <option name="y" value="41" />
+    <option name="width" value="1629" />
+    <option name="height" value="1222" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -97,6 +231,15 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/FMNIST/data/ZOO" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="O:\CriticalTransformationRobustness\FMNIST\data\ZOO" />
+      <recent name="O:\CriticalTransformationRobustness\FMNIST\data\WassersteinAttack" />
+      <recent name="O:\CriticalTransformationRobustness\FMNIST\data\SquareAttack-L2" />
+      <recent name="O:\CriticalTransformationRobustness\FMNIST\data\SquareAttack-Inf" />
+      <recent name="O:\CriticalTransformationRobustness\FMNIST\data\SpatialTransformationAttack" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -109,8 +252,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="fmnist_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="Attack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CriticalTransformationRobustness" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,7 +265,91 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FMNIST/fmnist_model.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FMNIST/Attack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attack_BrBeAttack_Inf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CriticalTransformationRobustness" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FMNIST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FMNIST/Attack_BrBeAttack_Inf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="attack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CriticalTransformationRobustness" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FMNIST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FMNIST/attack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CriticalTransformationRobustness" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FMNIST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FMNIST/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CriticalTransformationRobustness" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FMNIST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FMNIST/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +360,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fmnist_model" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.attack" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Attack" />
+        <item itemvalue="Python.Attack_BrBeAttack_Inf" />
       </list>
     </recent_temporary>
   </component>
@@ -151,10 +382,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2660" y="39" width="1440" height="899" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29529244" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16312057" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -162,7 +394,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4379085" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26131046" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -173,10 +405,288 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/transformer/Lib/site-packages/art/attacks/evasion/carlini.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/DeepFool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="82" column="54" lean-forward="true" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_brbeattack_inf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_brbeAttack_l2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_cw_inf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_cw_l2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_deepfool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="947">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_ead.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1106">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_fgsm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1016">
+          <caret line="103" selection-start-line="103" selection-end-line="104" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_hopskipjumpattack_inf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="54" selection-start-line="54" selection-end-line="101" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_hopskipjumpattack_l2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="100" column="14" lean-forward="true" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_ifgsm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1085">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_jsma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1085">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_newtonfool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="98" column="14" lean-forward="true" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_pgd_l2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1001">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_pgd_inf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="103" selection-start-line="103" selection-end-line="104" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_pixelattack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="102" selection-start-line="102" selection-end-line="103" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/transformer/Lib/site-packages/art/attacks/evasion/shadow_attack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_spatialtransformationattack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_shadowattack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1414">
+          <caret line="93" column="48" lean-forward="true" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_squareattack_l2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1016">
+          <caret line="105" selection-start-line="105" selection-end-line="106" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_squareattack_inf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1016">
+          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/transformer/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_ba.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/data/FGSM/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/transformer/Lib/site-packages/art/attacks/evasion/wasserstein.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_wassersteinattack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1784">
+          <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack_zoo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1016">
+          <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMNIST/attack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22077">
+          <caret line="1053" lean-forward="true" selection-start-line="1053" selection-end-line="1053" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FMNIST/fmnist_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+        <state relative-caret-position="416">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -185,8 +695,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FMNIST/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="814">
+          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -41,7 +41,6 @@ class FMnistModel(object):
 
     def train(self):
         model = self.create_model()
-        # model.fit(self.train_data, self.train_label, epochs=10, verbose=2, shuffle=True, validation_split=0.2)
         model.fit(self.train_data, self.train_label, epochs=1, verbose=2,
                   validation_data=(self.test_data, self.test_label))
         model.save(self.model_save_path)

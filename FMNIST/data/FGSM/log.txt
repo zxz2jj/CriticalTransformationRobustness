@@ -1,0 +1,5 @@
+FGSM Attack Information:
+Accuracy on benign test examples: 93.16%
+Accuracy on adversarial test examples: 68.10000000000001%
+Prediction changes: 3333
+Successful Attack: 2769

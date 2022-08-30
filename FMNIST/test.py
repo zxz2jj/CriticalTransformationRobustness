@@ -1,0 +1,1 @@
+print('data/BrBeAttack-L2/'.split('/'))
