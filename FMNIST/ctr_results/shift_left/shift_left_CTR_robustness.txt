@@ -1,0 +1,88 @@
+-----------------------BA-------------------------
+Example Number: (4985,)
+Ori NTFR robustness:4.055165496489469
+Adv NTFR robustness:0.437913741223671
+-----------------------BrBeAttack_Inf-------------------------
+Example Number: (9316,)
+Ori NTFR robustness:3.671854873336196
+Adv NTFR robustness:1.7197294976384714
+-----------------------BrBeAttack_L2-------------------------
+Example Number: (9316,)
+Ori NTFR robustness:3.671854873336196
+Adv NTFR robustness:1.7344353799914127
+-----------------------CW_Inf-------------------------
+Example Number: (2034,)
+Ori NTFR robustness:1.732055063913471
+Adv NTFR robustness:0.9926253687315634
+-----------------------CW_L2-------------------------
+Example Number: (2116,)
+Ori NTFR robustness:1.7542533081285445
+Adv NTFR robustness:0.7878071833648393
+-----------------------DeepFool-------------------------
+Example Number: (3546,)
+Ori NTFR robustness:2.0434292160180485
+Adv NTFR robustness:1.6835871404399323
+-----------------------EAD-------------------------
+Example Number: (3234,)
+Ori NTFR robustness:1.9916512059369202
+Adv NTFR robustness:1.0142238713667284
+-----------------------FGSM-------------------------
+Example Number: (2769,)
+Ori NTFR robustness:1.8992416034669555
+Adv NTFR robustness:2.956301914048393
+-----------------------IFGSM-------------------------
+Example Number: (3067,)
+Ori NTFR robustness:1.944897293772416
+Adv NTFR robustness:3.2774698402347573
+-----------------------HopSkipJumpAttack_Inf-------------------------
+Example Number: (9311,)
+Ori NTFR robustness:3.671893459349157
+Adv NTFR robustness:0.8934593491569112
+-----------------------HopSkipJumpAttack_L2-------------------------
+Example Number: (9315,)
+Ori NTFR robustness:3.672249060654858
+Adv NTFR robustness:0.6987654320987654
+-----------------------JSMA-------------------------
+Example Number: (7585,)
+Ori NTFR robustness:3.360843770599868
+Adv NTFR robustness:1.7003295978905735
+-----------------------NewtonFool-------------------------
+Example Number: (1667,)
+Ori NTFR robustness:1.8464307138572285
+Adv NTFR robustness:0.8770245950809838
+-----------------------PGD_Inf-------------------------
+Example Number: (3068,)
+Ori NTFR robustness:1.9442633637548892
+Adv NTFR robustness:3.279009126466754
+-----------------------PGD_L2-------------------------
+Example Number: (3053,)
+Ori NTFR robustness:1.9495578119882082
+Adv NTFR robustness:1.6098919095971176
+-----------------------PixelAttack-------------------------
+Example Number: (439,)
+Ori NTFR robustness:2.715261958997722
+Adv NTFR robustness:1.4419134396355353
+-----------------------ShadowAttack-------------------------
+Example Number: (7560,)
+Ori NTFR robustness:3.4906084656084655
+Adv NTFR robustness:3.0555555555555554
+-----------------------SpatialTransformationAttack-------------------------
+Example Number: (2809,)
+Ori NTFR robustness:2.3200427198291207
+Adv NTFR robustness:2.6379494482022072
+-----------------------SquareAttack_Inf-------------------------
+Example Number: (8584,)
+Ori NTFR robustness:3.48450605778192
+Adv NTFR robustness:1.9771668219944083
+-----------------------SquareAttack_L2-------------------------
+Example Number: (533,)
+Ori NTFR robustness:1.397748592870544
+Adv NTFR robustness:1.0619136960600375
+-----------------------WassersteinAttack-------------------------
+Example Number: (6956,)
+Ori NTFR robustness:2.9992811960897066
+Adv NTFR robustness:0.6387291546866015
+-----------------------ZOO-------------------------
+Example Number: (538,)
+Ori NTFR robustness:1.446096654275093
+Adv NTFR robustness:1.0353159851301115

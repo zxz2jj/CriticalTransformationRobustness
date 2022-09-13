@@ -4,11 +4,14 @@ import sys
 from fmnist_model import train_models
 from attack import BA, BrBeAttack, CWInf, CWL2, DeepFoolAttack, EAD, FGSM, HopSkipJumpAttack, IFGSM, JSMA, \
     NewtonFoolAttack, PGD, PixelsAttack, ShadowAttacks, SpatialTransformationAttack, SquareAttacks, WassersteinAttack, ZOO
+from calculate_ctr import CriticalTransformationRobustness
+from draw_picture import Draw
+from ctr_based_training_framework import TrainingFramework
 
 
 if __name__ == '__main__':
     # train deep learning models
-    # train_models()
+    train_models()
 
     # generate adversarial attacks
     attack_names = ['BA', 'BrBeAttack-Inf', 'BrBeAttack-L2', 'CW-Inf', 'CW-L2', 'DeepFool', 'EAD', 'FGSM',
@@ -49,5 +52,49 @@ if __name__ == '__main__':
         print("No adversarial data, please run 'attack.py' to generate！")
         sys.exit(0)
 
-    print('aaaaaaaaaaaaa')
+    ctr = CriticalTransformationRobustness(attack_names)
+    ctr.ctr_for_each_attack()
+    ctr.analyze_ctr_on_baseline_detector()
+
+    draw = Draw()
+
+    flag = True
+    if flag:
+        draw.show_adversarial_label_distribution()
+    flag = False
+    if flag:
+        draw.calculate_avg_ctr_for_each_transformation()
+    flag = False
+    if flag:
+        draw.show_box_ctr_for_each_transformation()
+    flag = True
+    if flag:
+        draw.show_avg_ctr_for_each_transformation()
+    flag = False
+    if flag:
+        draw.show_ctr_difference_for_each_transformation()
+    flag = True
+    if flag:
+        draw.show_baseline_detector_performance_for_each_transformation()
+    flag = True
+    if flag:
+        draw.show_best_baseline_detector_performance()
+    flag = False
+    if flag:
+        draw.calculate_corrcoef_between_best_performance_and_ctr_difference()
+
+    training_framework = TrainingFramework()
+    training_framework.data_sampling_random(refresh=False)
+    training_framework.calculate_ctr()
+    training_framework.calculate_baseline_detector_performance_on_mixed_attacks()
+    flag = True
+    if flag:
+        draw.show_baseline_detector_performance_for_mixed_attacks()
+
+    training_framework.feature_construction_vector_concatenation()
+    training_framework.train_classifier(feature_path='vector_concatenation/')
+
+    training_framework.feature_construction_vector_difference()
+    training_framework.train_classifier(feature_path='vector_difference/')
+
 

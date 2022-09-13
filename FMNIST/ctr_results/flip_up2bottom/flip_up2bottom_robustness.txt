@@ -1,0 +1,3 @@
+-------------------Attack Method: BA--------------------
+Adversarial Examples' Number: 4000
+Ori acc: 1.0, Adv acc: 0.003000000026077032, Attack: 0.996999979019165

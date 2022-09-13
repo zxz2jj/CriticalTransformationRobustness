@@ -1,0 +1,110 @@
+-------------------Attack Method: BA--------------------
+Adversarial Examples' Number: 4985
+Ori acc: 1.0, Adv acc: 0.0028084253426641226, Attack: 0.9971915483474731
+Original test example, Robustness: Num-(4985,), Avg-0.18403209628886633, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(4985,), Avg-0.01723971915747211, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: BrBeAttack_Inf--------------------
+Adversarial Examples' Number: 9316
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(9316,), Avg-0.17093495062258451, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(9316,), Avg-0.04321919278660339, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: BrBeAttack_L2--------------------
+Adversarial Examples' Number: 9316
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(9316,), Avg-0.17093495062258451, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(9316,), Avg-0.04275762129669356, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: CW_Inf--------------------
+Adversarial Examples' Number: 2034
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(2034,), Avg-0.08986234021632222, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(2034,), Avg-0.04068338249754149, Max-0.33999999999999986, Min-0.009999999999999691
+-------------------Attack Method: CW_L2--------------------
+Adversarial Examples' Number: 2116
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(2116,), Avg-0.09067580340264621, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(2116,), Avg-0.02924385633270291, Max-0.31999999999999984, Min-0.009999999999999691
+-------------------Attack Method: DeepFool--------------------
+Adversarial Examples' Number: 3546
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(3546,), Avg-0.11062887760857273, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(3546,), Avg-0.07160462492949773, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: EAD--------------------
+Adversarial Examples' Number: 3234
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(3234,), Avg-0.10368583797155195, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(3234,), Avg-0.03837662337662307, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: FGSM--------------------
+Adversarial Examples' Number: 2769
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(2769,), Avg-0.09937161430119147, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(2769,), Avg-0.10287107258938218, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: IFGSM--------------------
+Adversarial Examples' Number: 3067
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(3067,), Avg-0.10169872839908677, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(3067,), Avg-0.14241278121943238, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: HopSkipJumpAttack_Inf--------------------
+Adversarial Examples' Number: 9311
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(9311,), Avg-0.1709612286542796, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(9311,), Avg-0.030389861454193662, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: HopSkipJumpAttack_L2--------------------
+Adversarial Examples' Number: 9315
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(9315,), Avg-0.17093719806763258, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(9315,), Avg-0.02490928609769159, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: JSMA--------------------
+Adversarial Examples' Number: 7585
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(7585,), Avg-0.1573447593935396, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(7585,), Avg-0.04580487804878019, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: NewtonFool--------------------
+Adversarial Examples' Number: 1667
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(1667,), Avg-0.09200359928014366, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(1667,), Avg-0.037588482303538985, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: PGD_Inf--------------------
+Adversarial Examples' Number: 3068
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(3068,), Avg-0.101685136897001, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(3068,), Avg-0.1424054758800519, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: PGD_L2--------------------
+Adversarial Examples' Number: 3053
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(3053,), Avg-0.10159515230920375, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(3053,), Avg-0.06857189649525026, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: PixelAttack--------------------
+Adversarial Examples' Number: 439
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(439,), Avg-0.12227790432801791, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(439,), Avg-0.05214123006833683, Max-0.2799999999999998, Min-0.009999999999999691
+-------------------Attack Method: ShadowAttack--------------------
+Adversarial Examples' Number: 7560
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(7560,), Avg-0.16629629629629603, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(7560,), Avg-0.16226587301587278, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: SpatialTransformationAttack--------------------
+Adversarial Examples' Number: 2809
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(2809,), Avg-0.10802776788892814, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(2809,), Avg-0.1031363474546099, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: SquareAttack_Inf--------------------
+Adversarial Examples' Number: 8584
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(8584,), Avg-0.16568849021435203, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(8584,), Avg-0.07589352283317771, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: SquareAttack_L2--------------------
+Adversarial Examples' Number: 533
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(533,), Avg-0.06577861163226988, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(533,), Avg-0.04803001876172578, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: WassersteinAttack--------------------
+Adversarial Examples' Number: 6958
+Ori acc: 1.0, Adv acc: 0.0, Attack: 0.9997125864028931
+Original test example, Robustness: Num-(6958,), Avg-0.14516671457315292, Max-  0.5, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(6958,), Avg-0.02929002586950243, Max-  0.5, Min-0.009999999999999691
+-------------------Attack Method: ZOO--------------------
+Adversarial Examples' Number: 538
+Ori acc: 1.0, Adv acc: 0.0, Attack: 1.0
+Original test example, Robustness: Num-(538,), Avg-0.06730483271375434, Max-0.3799999999999999, Min-0.009999999999999691
+Adversarial test example, Robustness: Num-(538,), Avg-0.042862453531598205, Max-0.31999999999999984, Min-0.009999999999999691
